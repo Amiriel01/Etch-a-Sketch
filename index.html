@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="title">
+        Etch a Sketch
+    </div>
+    <div id="colorselect">
+        Pick a Color
+    </div>
+    <div class="colorbuttons">
+        <button class="action-button" value="BLACK" id="black">
+            Black
+        </button>
+        <button class="action-button" value="WHITE" id="white">
+            White
+        </button>
+        <button class="action-button" value="SHUFFLE" id="shuffle">
+            Shuffle
+        </button>
+    </div>
+    <div class="widthandheight">
+        <p>Width:<input type="text" name="width" size="3" maxlength="3"></p>
+        <p>Height<input type="text" name="height" size="3" maxlength="3"></p>
+    </div>
+    <div id="grid"></div>
+    <button class="action-button" value="RESET" id="reset">
+        Reset
+    </button>
+
+
+    <!--js script here-->
+    <script src="script.js"></script>
+</body>
+
+</html>
