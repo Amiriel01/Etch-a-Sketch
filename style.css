@@ -1,3 +1,5 @@
-* {
-    border:solid black 1px;
+.grid {
+    width: 300PX;
+    height: 300px;
+    display:grid;
 }
