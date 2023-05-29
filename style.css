@@ -1,5 +1,86 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(images/flowertree.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 900;
+    color: pink;
+    -webkit-text-stroke: 1px brown;
+}
+
+.pick-choose {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+#colorselect {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #93e9be;
+    -webkit-text-stroke: 1px black;
+}
+
+#choosegridsize {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #D8BFD8;
+    -webkit-text-stroke: 1px black;
+}
+
+.colorbuttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: .5em;
+    background-color: #FFFAA0;
+}
+
+#measurments {
+    text-align: center;
+}
+
+#drawing {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    color: #fdd97c;
+    -webkit-text-stroke: .5px black;
+}
+
+.gridcontainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
 .grid {
     width: 500PX;
     height: 500px;
     display:grid;
+    border: 10px solid pink;
+    outline: 1.5px solid brown;
+}
+
+.resetbutton {
+    display: flex;
+    justify-content: center;
 }
