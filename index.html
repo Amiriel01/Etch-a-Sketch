@@ -19,13 +19,13 @@
                 Pick a Color
             </div>
             <div class="colorbuttons">
-                <button onclick="colorChange('black')">
+                <button class="btn" onclick="colorChange('black')">
                     Black
                 </button>
-                <button onclick="colorChange('shuffle')">
+                <button class="btn" onclick="colorChange('shuffle')">
                     Shuffle
                 </button>
-                <button onclick="colorChange('white')">
+                <button class="btn" onclick="colorChange('white')">
                     Eraser
                 </button>
             </div>
@@ -40,7 +40,7 @@
                     <!--this.value refers to whatever value is entered into the textbox-->
                     <input type="text" placeholder="Enter a Number (2-100)" size="16"
                         onchange="changeSize(this.value)" />
-                    <button>Enter</button>
+                    <button class="btn2">Enter</button>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
         <div class="grid"></div>
     </div>
     <div class="resetbutton">
-        <button onclick="resetGrid()">
+        <button class="btn2" onclick="window.location.reload()">
             Reset
         </button>
     </div>

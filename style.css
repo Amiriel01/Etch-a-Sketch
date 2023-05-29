@@ -52,6 +52,15 @@ body {
 button {
     padding: .5em;
     background-color: #FFFAA0;
+    cursor: grab;
+}
+
+.btn2:active {
+    background-color: #93e9be;
+}
+
+.special {
+    background-color: #93e9be;;
 }
 
 #measurments {

@@ -86,3 +86,14 @@ document.querySelector('.grid').addEventListener('click', (e) => {
         }
     }
 });
+//grabs all btn class buttons//
+let btnList = document.querySelectorAll('.btn');
+//applies color to each on click//
+btnList.forEach(btn => {
+    btn.addEventListener('click', () => {
+        //removes on new click. ? tells that it isn't active and to disregard the error and push through//
+        document.querySelector('.special')?.classList.remove('special');
+        //adds effect to next button clicked//
+        btn.classList.add('special');
+    })
+})
