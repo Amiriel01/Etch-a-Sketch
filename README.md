@@ -7,6 +7,9 @@ I am creating an etch-a-sketch game while moving through The Odin Project curric
 
 Completed Game Images:
 
+![](images/completedgame.png)
+
+
 Background Image: dreamstime (Royalty-Free Stock Photo)
 
 Features on Page:
