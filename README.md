@@ -1,8 +1,8 @@
 # Etch-a-Sketch
 
-Objective:
+**Objective**
 
-I am creating an Etch-a-Sketch game to combine some of the skills I've learned in html, css, and javascript.
+I am creating an Etch-a-Sketch game to combine some of the skills I've learned in HTML, CSS, and JavaScript.
 
 Completed Game Images:
 
@@ -10,14 +10,14 @@ Completed Game Images:
 ![](images/completedblack.png)
 ![](images/completedcolor.png)
 
-Features on Page:
+***Features on Page***
 
-1. Three Buttons for Color Selection: Each button shows the user what color is being used while in use once a user selection is made.
-2. Textbox for GridSquare Selection: User chooses the size for the grid squares using an area expression (l*w). Users enter one number to be used for both length and width measurements.
-3. Grid to Create Drawing: The grid has a click "on" or "off" functionality so the user is not constantly drawing as soon as they reach the grid. The mode for drawing or not drawing is shown above the grid for easy visibility.
-4. Reset Button: The reset button refreshes the page so the user will not have to change their previous drawing selections before beginning a fresh drawing.  
+1. The three color buttons show the user what color is in use after a user selection is made.
+2. The textbox for grid square selection allows the user to choose the size for the grid squares using a hidden area expression (l*w). The user enters one number that is used for both length and width measurements.
+3. The grid has a click "on" or "off" functionality so the user is not constantly drawing as soon as they reach the grid. The mode for "Drawing" or "Not Drawing" is shown above the grid for easy visibility.
+4. The reset button refreshes the page so the user will not have to change their previous drawing selections before beginning a fresh drawing.  
 
-Credits:
+***Credits***
 
 Background Image: dreamstime (Royalty-Free Stock Photo)
 
